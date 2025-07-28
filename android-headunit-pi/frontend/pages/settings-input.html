@@ -1,0 +1,35 @@
+<div class="setting-group">
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Touch Input</div>
+      <div class="setting-description">Calibrate touchscreen, adjust sensitivity, and enable multi-touch support.</div>
+    </div>
+    <div class="setting-control">
+      <button id="calibrate-touch-btn" class="control-btn">Calibrate Touchscreen</button>
+      <label><input type="checkbox" id="multi-touch-toggle" checked> Enable Multi-Touch</label>
+      <label for="touch-sensitivity">Touch Sensitivity</label>
+      <input type="range" id="touch-sensitivity" min="1" max="10" value="5" />
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Hardware Buttons / Knobs</div>
+      <div class="setting-description">Remap buttons and assign long-press actions.</div>
+    </div>
+    <div class="setting-control">
+      <button id="remap-buttons-btn" class="control-btn">Remap Buttons</button>
+      <button id="assign-longpress-btn" class="control-btn">Assign Long-Press Actions</button>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Voice Control</div>
+      <div class="setting-description">Enable voice assistant, hotword detection, and voice feedback preferences.</div>
+    </div>
+    <div class="setting-control">
+      <label><input type="checkbox" id="voice-assistant-toggle" checked> Enable Voice Assistant</label>
+      <label><input type="checkbox" id="hotword-detection-toggle"> Enable Hotword Detection ("Hey OS")</label>
+      <label><input type="checkbox" id="voice-feedback-toggle" checked> Enable Voice Feedback</label>
+    </div>
+  </div>
+</div>
