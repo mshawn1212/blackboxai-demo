@@ -1,0 +1,162 @@
+<section class="page settings-page">
+  <header class="settings-header">
+    <h1>Settings</h1>
+  </header>
+
+  <div class="settings-main">
+    <!-- Left Panel - Settings Categories -->
+    <div class="settings-categories">
+      <div class="category-item">
+        <div class="category-icon">🔄</div>
+        <div class="category-label">Maintenance and Update</div>
+      </div>
+      <div class="category-item">
+        <div class="category-icon">🚗</div>
+        <div class="category-label">Vehicle</div>
+      </div>
+      <div class="category-item active">
+        <div class="category-icon">🖥</div>
+        <div class="category-label">Display and Personalize</div>
+      </div>
+      <div class="category-item">
+        <div class="category-icon">🎵</div>
+        <div class="category-label">Media and Sound</div>
+      </div>
+      <div class="category-item">
+        <div class="category-icon">📶</div>
+        <div class="category-label">Connectivity</div>
+      </div>
+      <div class="category-item">
+        <div class="category-icon">🛡</div>
+        <div class="category-label">Safety and Security</div>
+      </div>
+      <div class="category-item">
+        <div class="category-icon">🧭</div>
+        <div class="category-label">Navigation</div>
+      </div>
+    </div>
+
+    <!-- Right Panel - Display Settings -->
+    <div class="settings-panel">
+      <div class="setting-group">
+        <div class="setting-item">
+          <div class="setting-info">
+            <div class="setting-label">Brightness</div>
+          </div>
+          <div class="setting-control">
+            <div class="brightness-control">
+              <span class="brightness-icon">☀</span>
+              <div class="slider-container">
+                <input type="range" class="slider" value="60" min="0" max="100">
+              </div>
+            </div>
+            <div class="toggle-container">
+              <label class="toggle-label">Auto Brightness</label>
+              <div class="toggle-switch">
+                <input type="checkbox" class="toggle-input">
+                <span class="toggle-slider"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <div class="setting-item">
+          <div class="setting-info">
+            <div class="setting-label">Wallpaper</div>
+            <div class="setting-description">Customize your dashboard with preloaded or personal images</div>
+          </div>
+          <div class="setting-control">
+            <select class="setting-dropdown">
+              <option>Default</option>
+              <option>Custom</option>
+              <option>Gallery</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <div class="setting-item">
+          <div class="setting-info">
+            <div class="setting-label">Theme</div>
+            <div class="setting-description">Switch between Light, Dark, or Auto mode for optimal visibility</div>
+          </div>
+          <div class="setting-control">
+            <select class="setting-dropdown">
+              <option>Dark</option>
+              <option>Light</option>
+              <option>Auto</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <div class="setting-item">
+          <div class="setting-info">
+            <div class="setting-label">Sleep</div>
+            <div class="setting-description">Set screen timeout to save energy and stay focused</div>
+          </div>
+          <div class="setting-control">
+            <div class="circular-control">
+              <div class="circular-value">30 sec</div>
+              <button class="info-btn">ℹ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <div class="setting-item">
+          <div class="setting-info">
+            <div class="setting-label">Refresh Rate</div>
+            <div class="setting-description">Choose smooth visuals or energy-saving performance</div>
+          </div>
+          <div class="setting-control">
+            <select class="setting-dropdown">
+              <option>120 Hz</option>
+              <option>90 Hz</option>
+              <option>60 Hz</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <div class="setting-item">
+          <div class="setting-info">
+            <div class="setting-label">Font Size</div>
+            <div class="setting-description">Adjust text size and style for better readability</div>
+          </div>
+          <div class="setting-control">
+            <select class="setting-dropdown">
+              <option>Medium</option>
+              <option>Small</option>
+              <option>Large</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="bottom-nav">
+    <button class="nav-btn" aria-label="Apps">
+      <span class="icon grid-icon">&#9776;</span>
+    </button>
+    <button class="nav-btn" aria-label="Grid">
+      <span class="icon squares-icon">&#9632;</span>
+    </button>
+    <button class="nav-btn" aria-label="Home">
+      <span class="icon home-icon">&#8962;</span>
+    </button>
+    <button class="nav-btn" aria-label="Music">
+      <span class="icon music-icon">&#9835;</span>
+    </button>
+    <button class="nav-btn active" aria-label="Settings">
+      <span class="icon settings-icon">&#9881;</span>
+    </button>
+  </nav>
+</section>
