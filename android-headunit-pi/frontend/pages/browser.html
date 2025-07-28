@@ -1,0 +1,29 @@
+<section class="page browser-page">
+  <header class="browser-header">
+    <button id="browser-exit-btn" class="exit-btn">✕</button>
+    <div class="browser-title" id="browser-title">Loading...</div>
+  </header>
+  
+  <div class="browser-content">
+    <iframe id="browser-iframe" class="browser-iframe" src="" frameborder="0" sandbox="allow-scripts allow-same-origin allow-forms allow-popups"></iframe>
+    
+    <div id="browser-error" class="browser-error" style="display: none;">
+      <div class="error-icon">⚠️</div>
+      <div class="error-title">Connection Error</div>
+      <div class="error-message">Unable to load the page. Please check your internet connection.</div>
+      <button id="browser-retry-btn" class="retry-btn">Try Again</button>
+    </div>
+    
+    <div id="browser-loading" class="browser-loading">
+      <div class="loading-spinner"></div>
+      <div class="loading-text">Loading...</div>
+    </div>
+  </div>
+  
+  <nav class="browser-bottom-nav">
+    <button id="browser-back-btn" class="nav-btn" aria-label="Back">◀</button>
+    <button id="browser-forward-btn" class="nav-btn" aria-label="Forward">▶</button>
+    <button id="browser-refresh-btn" class="nav-btn" aria-label="Refresh">⟳</button>
+    <button id="browser-exit-bottom-btn" class="nav-btn exit-nav-btn" aria-label="Exit">✕</button>
+  </nav>
+</section>
