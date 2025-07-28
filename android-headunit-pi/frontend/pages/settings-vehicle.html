@@ -1,0 +1,26 @@
+<div class="setting-group">
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Vehicle Sensors</div>
+      <div class="setting-description">Monitor engine status, CANbus diagnostics, tire pressure, and door status.</div>
+    </div>
+    <div class="setting-control">
+      <div>Engine Status: <span id="engine-status">OFF</span></div>
+      <div>Tire Pressure: <span id="tire-pressure">Normal</span></div>
+      <div>Door Status: <span id="door-status">Closed</span></div>
+      <button id="refresh-vehicle-status" class="control-btn">Refresh Status</button>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">RFID & Login Config</div>
+      <div class="setting-description">Manage authorized RFID tags and session lock settings.</div>
+    </div>
+    <div class="setting-control">
+      <button id="manage-rfid-btn" class="control-btn">Manage RFID Tags</button>
+      <label><input type="checkbox" id="session-lock-toggle" checked> Enable Session Lock</label>
+      <label for="login-timeout">Login Timeout (minutes)</label>
+      <input type="number" id="login-timeout" min="1" max="60" value="15" />
+    </div>
+  </div>
+</div>
