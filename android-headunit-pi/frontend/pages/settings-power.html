@@ -1,0 +1,40 @@
+<div class="setting-group">
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Battery Status</div>
+      <div class="setting-description">View charge level, health, voltage, and current draw.</div>
+    </div>
+    <div class="setting-control">
+      <div id="battery-status">85% Charged</div>
+      <div id="battery-health">Good</div>
+      <div id="battery-voltage">12.6V</div>
+      <div id="battery-current">5A</div>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Power Modes</div>
+      <div class="setting-description">Select power mode and configure auto shutdown/wake.</div>
+    </div>
+    <div class="setting-control">
+      <select id="power-mode-select">
+        <option>Normal</option>
+        <option>Power Saving</option>
+        <option>Standby</option>
+      </select>
+      <label><input type="checkbox" id="auto-shutdown-toggle"> Auto Shutdown</label>
+      <label><input type="checkbox" id="display-sleep-toggle"> Display Sleep on Ignition Off</label>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Startup Behavior</div>
+      <div class="setting-description">Configure boot on power and auto-launch apps.</div>
+    </div>
+    <div class="setting-control">
+      <label><input type="checkbox" id="boot-on-power-toggle" checked> Boot on Power</label>
+      <label><input type="checkbox" id="auto-launch-apps-toggle"> Auto-launch Apps</label>
+      <label><input type="checkbox" id="fastboot-toggle"> Enable Fastboot</label>
+    </div>
+  </div>
+</div>
