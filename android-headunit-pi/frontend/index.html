@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Android Head Unit UI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script defer src="scripts.js"></script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>" />
+</head>
+<body>
+  <!-- Status Bar -->
+  <header class="status-bar">
+    <div class="time-date">
+      <div class="time">
+        <span class="time-hour" id="current-time">9:45</span>
+        <span class="time-period" id="current-period">am</span>
+      </div>
+      <div class="date" id="current-date">Sunday | February 19, 2023</div>
+    </div>
+    <div class="user-profile">
+      <div class="avatar"></div>
+      <span class="username">James</span>
+      <span class="dropdown-arrow">&#9662;</span>
+      <div class="notification-badge"></div>
+    </div>
+  </header>
+
+  <!-- Main content container -->
+  <main id="app">
+    <!-- Pages will be dynamically loaded here -->
+  </main>
+
+  <!-- Bottom Navigation Bar -->
+  <nav class="bottom-nav">
+    <button class="nav-btn" data-page="apps" aria-label="Apps">
+      <span class="icon grid-icon">&#9776;</span>
+    </button>
+    <button class="nav-btn" data-page="grid" aria-label="Grid">
+      <span class="icon squares-icon">&#9632;</span>
+    </button>
+    <button class="nav-btn active" data-page="home" aria-label="Home">
+      <span class="icon home-icon">&#8962;</span>
+    </button>
+    <button class="nav-btn" data-page="music" aria-label="Music">
+      <span class="icon music-icon">&#9835;</span>
+    </button>
+    <button class="nav-btn" data-page="settings" aria-label="Settings">
+      <span class="icon settings-icon">&#9881;</span>
+    </button>
+  </nav>
+</body>
+</html>
