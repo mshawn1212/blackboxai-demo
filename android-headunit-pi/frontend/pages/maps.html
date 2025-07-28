@@ -1,0 +1,76 @@
+<section class="page maps-page">
+  <header class="maps-header">
+    <h1>Maps</h1>
+    <div class="quick-access-pills">
+      <button class="pill">Home</button>
+      <button class="pill">Office</button>
+      <button class="pill">University</button>
+    </div>
+  </header>
+
+  <div class="maps-main">
+    <div id="map" class="map-container"></div>
+
+    <aside class="maps-sidebar">
+      <div class="destination-info">
+        <div class="search-bar">
+          <input type="text" placeholder="By Search" />
+          <button class="search-icon">&#128269;</button>
+        </div>
+        <div class="address">2972 Westheimer Rd. Santa Ana, Illinois 85488</div>
+        <div class="distance-time">7 km | 12 min</div>
+        <div class="audio-share-icons">
+          <button class="icon speaker-icon">&#128266;</button>
+          <button class="icon share-icon">&#128257;</button>
+        </div>
+      </div>
+
+      <div class="current-location">
+        <h2>Live Location</h2>
+        <div class="address">6391 Elgin St. Celina, Delaware 10299</div>
+        <div class="location-icon">&#x1F4CD;</div>
+      </div>
+
+      <div class="route-options">
+        <label for="choose-route">Choose Route</label>
+        <select id="choose-route">
+          <option>Avoid Tolls</option>
+          <option>Fastest</option>
+          <option>Shortest</option>
+        </select>
+
+        <label for="map-style">Map Style</label>
+        <select id="map-style">
+          <option>Default</option>
+          <option>Satellite</option>
+          <option>Dark</option>
+        </select>
+
+        <label for="nearby-poi">Near By POI</label>
+        <select id="nearby-poi">
+          <option>Parking</option>
+          <option>Gas Stations</option>
+          <option>Restaurants</option>
+        </select>
+      </div>
+    </aside>
+  </div>
+
+  <nav class="bottom-nav">
+    <button class="nav-btn active" aria-label="Maps">
+      <span class="icon maps-icon">&#128205;</span>
+    </button>
+    <button class="nav-btn" aria-label="Apps">
+      <span class="icon grid-icon">&#9776;</span>
+    </button>
+    <button class="nav-btn" aria-label="Home">
+      <span class="icon home-icon">&#8962;</span>
+    </button>
+    <button class="nav-btn" aria-label="Music">
+      <span class="icon music-icon">&#9835;</span>
+    </button>
+    <button class="nav-btn" aria-label="Settings">
+      <span class="icon settings-icon">&#9881;</span>
+    </button>
+  </nav>
+</section>
