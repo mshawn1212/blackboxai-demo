@@ -1,0 +1,37 @@
+<div class="setting-group">
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">System Updates</div>
+      <div class="setting-description">Check for OTA updates, manual install, and rollback options.</div>
+    </div>
+    <div class="setting-control">
+      <button id="check-ota-btn" class="control-btn">Check for Updates</button>
+      <button id="manual-install-btn" class="control-btn">Manual Install</button>
+      <button id="rollback-btn" class="control-btn">Rollback to Previous Version</button>
+      <div id="update-status" style="margin-top: 10px; color: #9ca3af;"></div>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Backup & Reset</div>
+      <div class="setting-description">Factory reset and backup options.</div>
+    </div>
+    <div class="setting-control">
+      <button id="factory-reset-btn" class="control-btn">Factory Reset</button>
+      <button id="backup-btn" class="control-btn">Backup to SD/Cloud</button>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Developer Options</div>
+      <div class="setting-description">ADB over network, show touches, logging, safe mode, diagnostics.</div>
+    </div>
+    <div class="setting-control">
+      <label><input type="checkbox" id="adb-toggle"> Enable ADB over Network</label>
+      <label><input type="checkbox" id="show-touches-toggle"> Show Touches</label>
+      <label><input type="checkbox" id="logging-toggle"> Enable Logging</label>
+      <label><input type="checkbox" id="safe-mode-toggle"> Safe Mode</label>
+      <button id="diagnostics-btn" class="control-btn">Run Diagnostics</button>
+    </div>
+  </div>
+</div>
