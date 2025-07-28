@@ -1,0 +1,54 @@
+<div class="setting-group">
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Wi-Fi</div>
+      <div class="setting-description">Enable/Disable Wi-Fi and manage networks.</div>
+    </div>
+    <div class="setting-control">
+      <label><input type="checkbox" id="wifi-enable-toggle" checked> Enable Wi-Fi</label>
+      <ul id="wifi-networks-list">
+        <li>HomeNetwork (Strong)</li>
+        <li>OfficeNetwork (Medium)</li>
+        <li>CafeWiFi (Weak)</li>
+      </ul>
+      <input type="text" id="wifi-ssid-input" placeholder="Enter SSID manually" />
+      <button id="wifi-connect-btn">Connect</button>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Bluetooth</div>
+      <div class="setting-description">Enable/Disable Bluetooth and manage paired devices.</div>
+    </div>
+    <div class="setting-control">
+      <label><input type="checkbox" id="bluetooth-enable-toggle" checked> Enable Bluetooth</label>
+      <ul id="bluetooth-devices-list">
+        <li>iPhone 12 (Connected)</li>
+        <li>Car Audio (Paired)</li>
+      </ul>
+      <button id="bluetooth-scan-btn">Scan for Devices</button>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Mobile Data</div>
+      <div class="setting-description">Enable mobile data and configure APN settings.</div>
+    </div>
+    <div class="setting-control">
+      <label><input type="checkbox" id="mobile-data-toggle"> Enable Mobile Data</label>
+      <input type="text" id="apn-input" placeholder="APN Settings" />
+      <label><input type="checkbox" id="roaming-toggle"> Allow Roaming</label>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Hotspot & Tethering</div>
+      <div class="setting-description">Set up mobile hotspot and tethering options.</div>
+    </div>
+    <div class="setting-control">
+      <label><input type="checkbox" id="hotspot-toggle"> Enable Hotspot</label>
+      <label><input type="checkbox" id="usb-tethering-toggle"> USB Tethering</label>
+      <label><input type="checkbox" id="bluetooth-tethering-toggle"> Bluetooth Tethering</label>
+    </div>
+  </div>
+</div>
