@@ -1,0 +1,60 @@
+<div class="setting-group">
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">About Device / System Info</div>
+      <div class="setting-description">
+        OS version: Hurtec OS 1.0.0<br/>
+        Build number: 1001<br/>
+        Kernel: Linux 6.1<br/>
+        Device model: Raspberry Pi 4<br/>
+        Serial number: 1234567890<br/>
+        System uptime: <span id="system-uptime">Loading...</span><br/>
+        Legal info / Open-source licenses available.
+      </div>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Date & Time</div>
+      <div class="setting-description">Auto-set via GPS/network or manual set option.</div>
+    </div>
+    <div class="setting-control">
+      <label><input type="checkbox" id="auto-time-toggle" checked> Auto-set Date & Time</label>
+      <input type="datetime-local" id="manual-date-time" disabled />
+      <select id="time-zone-select">
+        <option>UTC</option>
+        <option>GMT</option>
+        <option>EST</option>
+        <option>PST</option>
+      </select>
+      <select id="time-format-select">
+        <option value="12">12-hour</option>
+        <option value="24" selected>24-hour</option>
+      </select>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Language & Input</div>
+      <div class="setting-description">UI language, keyboard/input method, voice assistant language.</div>
+    </div>
+    <div class="setting-control">
+      <select id="ui-language-select">
+        <option>English</option>
+        <option>Spanish</option>
+        <option>French</option>
+        <option>German</option>
+      </select>
+      <select id="keyboard-input-select">
+        <option>QWERTY</option>
+        <option>AZERTY</option>
+        <option>DVORAK</option>
+      </select>
+      <select id="voice-assistant-language-select">
+        <option>English</option>
+        <option>Spanish</option>
+        <option>French</option>
+      </select>
+    </div>
+  </div>
+</div>
