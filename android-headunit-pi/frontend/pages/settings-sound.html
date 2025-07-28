@@ -1,0 +1,50 @@
+<div class="setting-group">
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Volume Controls</div>
+      <div class="setting-description">Master volume and individual levels for media, notifications, and navigation voice.</div>
+    </div>
+    <div class="setting-control">
+      <label>Master Volume</label>
+      <input type="range" id="master-volume" min="0" max="100" value="50" />
+      <label>Media Volume</label>
+      <input type="range" id="media-volume" min="0" max="100" value="50" />
+      <label>Notifications Volume</label>
+      <input type="range" id="notifications-volume" min="0" max="100" value="50" />
+      <label>Navigation Voice Volume</label>
+      <input type="range" id="navigation-volume" min="0" max="100" value="50" />
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Output Source</div>
+      <div class="setting-description">Select audio output device.</div>
+    </div>
+    <div class="setting-control">
+      <select id="output-source-select">
+        <option>Internal Speaker</option>
+        <option>Bluetooth Device</option>
+        <option>HDMI Audio Out</option>
+        <option>AUX</option>
+      </select>
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Sound Effects</div>
+      <div class="setting-description">Equalizer presets and balance/fade settings.</div>
+    </div>
+    <div class="setting-control">
+      <select id="equalizer-select">
+        <option>Flat</option>
+        <option>Bass Boost</option>
+        <option>Treble Boost</option>
+        <option>Vocal Boost</option>
+      </select>
+      <label>Balance</label>
+      <input type="range" id="balance-slider" min="-50" max="50" value="0" />
+      <label>Fade</label>
+      <input type="range" id="fade-slider" min="-50" max="50" value="0" />
+    </div>
+  </div>
+</div>
