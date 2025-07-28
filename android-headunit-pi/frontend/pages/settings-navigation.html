@@ -1,0 +1,40 @@
+<div class="setting-group">
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Navigation Settings</div>
+      <div class="setting-description">Configure default navigation app, units, toll avoidance, and voice prompts.</div>
+    </div>
+    <div class="setting-control">
+      <label for="default-navigation-app">Default Navigation App</label>
+      <select id="default-navigation-app">
+        <option>Google Maps</option>
+        <option>OsmAnd</option>
+        <option>Hurtec Maps</option>
+      </select>
+      <label for="units-select">Units</label>
+      <select id="units-select">
+        <option value="km">Kilometers</option>
+        <option value="miles">Miles</option>
+      </select>
+      <label><input type="checkbox" id="avoid-tolls-toggle"> Avoid Tolls</label>
+      <label><input type="checkbox" id="avoid-highways-toggle"> Avoid Highways</label>
+      <label for="voice-prompt-volume">Voice Prompt Volume</label>
+      <input type="range" id="voice-prompt-volume" min="0" max="100" value="50" />
+    </div>
+  </div>
+  <div class="setting-item">
+    <div class="setting-info">
+      <div class="setting-label">Location Services</div>
+      <div class="setting-description">Manage GPS toggle, accuracy mode, and location permissions.</div>
+    </div>
+    <div class="setting-control">
+      <label><input type="checkbox" id="gps-toggle" checked> Enable GPS</label>
+      <label for="accuracy-mode-select">Accuracy Mode</label>
+      <select id="accuracy-mode-select">
+        <option>High Accuracy</option>
+        <option>Battery Saving</option>
+      </select>
+      <label><input type="checkbox" id="location-permissions-toggle" checked> Allow Location Access</label>
+    </div>
+  </div>
+</div>
